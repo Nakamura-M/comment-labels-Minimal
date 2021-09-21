@@ -1,0 +1,27 @@
+{
+  "tabWidth": 2,
+  "printWidth": 120,
+  "useTabs": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "requirePragma": false,
+  "trailingComma": "es5",
+  "arrowParens": "always",
+  "insertPragma": false,
+  "semi": false,
+  "overrides": [
+    {
+      "files": ["*.htm?l","*.php","*.ejs"],
+      "options": {
+        "printWidth": 300
+      }
+    },
+    {
+      "files": ["*.scss","*.css"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
